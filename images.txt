@@ -1,13 +1,13 @@
-grafana/grafana
-redis:latest
-tams_django:latest
-tams_vue:latest
-postgres:latest
-mongo:v4.0.3
-nginx:latest
-sjqzhang/go-fastdfs:latest
+--platform=linux/amd64 grafana/grafana
+--platform=linux/amd64 redis:latest
+--platform=linux/amd64 tams_django:latest
+--platform=linux/amd64 tams_vue:latest
+--platform=linux/amd64 postgres:latest
+--platform=linux/amd64 mongo:v4.0.3
+--platform=linux/amd64 nginx:latest
+--platform=linux/amd64 sjqzhang/go-fastdfs:latest
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
