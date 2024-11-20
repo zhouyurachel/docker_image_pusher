@@ -1,4 +1,11 @@
-nginx
+grafana/grafana
+redis:latest
+tams_django:latest
+tams_vue:latest
+postgres:latest
+mongo:v4.0.3
+nginx:latest
+sjqzhang/go-fastdfs:latest
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
